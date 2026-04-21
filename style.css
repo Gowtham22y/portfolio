@@ -1019,11 +1019,11 @@ section {
   margin-right: 7px;
   animation: blink 2s ease infinite;
 }
-.s-txt {
-  color: rgba(240, 236, 228, 0.55);
+[data-theme="light"] .s-txt {
+  color: rgba(26, 18, 8, 0.68);
 }
-.s-loc {
-  color: rgba(240, 236, 228, 0.4);
+[data-theme="light"] .s-loc {
+  color: rgba(26, 18, 8, 0.54);
 }
 /* floating badges */
 .f-badge {
